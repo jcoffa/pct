@@ -102,6 +102,9 @@
     <pathelement location="lib/testng-6.13.1.jar" />
     <pathelement location="lib/ini4j-0.5.1.jar" />
     <pathelement location="lib/guava.jar" />
+    <pathelement location="lib/mockito-core-1.10.19.jar" />
+    <pathelement location="lib/objenesis-2.1.jar" />
+    <pathelement location="lib/hamcrest-core-1.1.jar" />
   </path>
   
   <target name="init" description="Initialize PCT builder" depends="init-properties">
